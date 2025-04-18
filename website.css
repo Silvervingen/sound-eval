@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Light background for contrast */
+}
+
+.question {
+    margin-bottom: 30px;
+    padding: 20px;
+    background: white; /* White background for question area */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.options {
+    display: flex;
+    justify-content: space-around; /* Space around options */
+}
+
+.option {
+    text-align: center;
+    background: #ffffff; /* White background for options */
+    padding: 10px;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+}
+
+.slider-container {
+    position: relative; /* Keep the container relative */
+    display: inline-block;
+    padding-bottom: 5%;
+}
+
+.slider-container input[type="range"] {
+    width: 100%; /* Full width for sliders */
+}
+
+.range-label {
+    position: absolute; /* Keep it absolute for positioning */
+    top: 25px; /* Position it below the slider */
+    left: 50%; /* Center it horizontally */
+    transform: translateX(-50%); /* Adjust to center it */
+    font-size: 12px; /* Keep the font size */
+    color: #555; /* Keep the color */
+}
